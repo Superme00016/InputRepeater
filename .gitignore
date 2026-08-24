@@ -1,0 +1,23 @@
+*.log
+*.tmp
+*.hold
+*.pdb
+*.user
+*.suo
+
+# Local secrets and machine-specific config.
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+*.p12
+secrets.*
+config.local.*
+appsettings.local.json
+
+# Saved macros may contain private activity.
+*.irm.xml
+
+# Build outputs and release binaries belong in GitHub Releases.
+*.exe
